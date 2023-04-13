@@ -26,6 +26,7 @@ body{
 .calculator .buttons #value{
     position: relative;
     left: 8px;
+    margin-bottom: 12px;
     grid-column: span 4;
     height: 100px;
     line-height: 100px;
@@ -43,6 +44,14 @@ body{
     width: calc(100% - 16px);
 }
 
+.calculator .buttons #value::before{
+    content: "";
+    position: absolute;
+    inset: 5px 3px;
+    border-top: 2px solid #ccc;
+    filter: blur(2px);
+
+}
 .calculator .buttons span{
     padding: 10px;
     margin: 6px;
@@ -55,10 +64,46 @@ body{
     color: #999;
     border: 2px solid #222;
     border-radius: 6px;
-    background: linear-gradient(#555353, #3a3c2e);
+    background: linear-gradient(#555353, #36);
     box-shadow: inset 0 6px 1px 0 rgba(0,0,0,0.35),
     0 5px 5px 0 rgba(0,0,0,0.5),
     0 15px 25px 0 rgba(0,0,0,0.35);
     cursor: pointer;
     user-select: none;
+}
+
+.calculator .buttons span::before{
+    content: "";
+    position: absolute;
+    inset: 5px 3px;
+    border-top: 2px solid #ccc;
+    filter: blur(2px);
+
+}
+
+.calculator .buttons span::active{
+    box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.35),
+    inset 0 5px 15px rgba(0, 0, 0, 0.5),
+    inset 0 15px 25px rgba(0,0,0,0.35);
+    color: #fff;
+    text-shadow: 0 0 5px #219cf3,
+    0 0 8px #219cf3;
+}
+
+.calculator .buttons span#clear{
+    grid-column: span 2;
+    background: orange;
+    color: #fff;
+}
+
+.calculator .buttons span#plus{
+    grid-row: span 2;
+    background: #316fcc;
+    color: #fff;
+}
+
+.calculator .buttons span#equal{
+    grid-row: span 2;
+    background: green;
+    color: #fff;
 }
