@@ -1,6 +1,7 @@
-# Réalisation d'une calculatrice
+ # 🇫🇷 Réalisation d'une calculatrice 🇫🇷
+ # 🇬🇧 Making a calculator 🇬🇧
 
-Ce projet à pour but de créer une calculatrice fonctionnelle
+Ce projet à pour but de créer une calculatrice fonctionnelle.
 
 ## Technologies utilisées
 
