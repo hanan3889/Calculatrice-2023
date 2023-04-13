@@ -1,8 +1,7 @@
- # 🇫🇷 Réalisation d'une calculatrice 🇫🇷
- # 🇬🇧 Making a calculator 🇬🇧
+ # Making a calculator 
 
-Ce projet à pour but de créer une calculatrice fonctionnelle.
+This project aims to create a functional calculator.
 
-## Technologies utilisées
+## Technology uses
 
-Pour la réaliser j'ai utiliser HTML, CSS et Javascript.
+To realize it I uses HTML, CSS et Javascript.
