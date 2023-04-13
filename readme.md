@@ -2,6 +2,6 @@
 
 This project aims to create a functional calculator.
 
-## Technology uses
+## Technology used
 
 To realize it I uses HTML, CSS et Javascript.
